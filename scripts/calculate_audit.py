@@ -103,7 +103,7 @@ def statistical_parity_difference(rate_minority: float, rate_majority: float) ->
     Valor ideal: 0. Un valor negativo indica que el grupo minoritario
     es aceptado con menor frecuencia.
     """
-    raise NotImplementedError("TODO 2: implementa la Statistical Parity Difference")
+    return rate_minority - rate_majority
 
 
 def equal_opportunity_difference(tpr_minority: float, tpr_majority: float) -> float:
@@ -115,7 +115,7 @@ def equal_opportunity_difference(tpr_minority: float, tpr_majority: float) -> fl
     Valor ideal: 0. Compara solo a las personas realmente calificadas
     (true_label = 1) de cada grupo.
     """
-    raise NotImplementedError("TODO 1: implementa la Equal Opportunity Difference")
+    return tpr_minority - tpr_majority
 
 
 # --------------------------------------------------------------------------
