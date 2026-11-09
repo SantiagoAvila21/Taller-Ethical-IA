@@ -364,7 +364,7 @@ script; contrástalas con las tuyas si registraste otras._
 
 - [x] TODO 1 y TODO 2 implementados; `pytest -v` sin _skipped_ ni fallos
 - [x] Evidencias 1 a 4 (salidas de consola) pegadas arriba
-- [ ] 5 capturas de CI en `docs/img/` (3 en rojo, 2 en verde) y visibles en este README
+- [x] 5 capturas de CI en `docs/img/` (3 en rojo, 2 en verde) y visibles en este README
 - [x] Sección Reflexión completa (A, B y C)
 - [x] `MODEL_CARD.md` completada
 - [ ] Repositorio compartido con el docente
